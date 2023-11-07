@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
 ]
 
 MIDDLEWARE = [
@@ -125,10 +126,12 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 CART_SESSION_ID = 'cart'
 
-
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'basingerfelix17@gmail.com'
 EMAIL_HOST_PASSWORD = 'ihmlemkgtxgvzaye'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51O9rzFH1OPSz0doL9Kkk28AlkatEYJ4853CQZQyOvSMfOWAdqctWgXpf67pIvIwKbLsfU1oaWngy0w41CEr3HQcb00y6t2DrHf'  # Публикуемый ключ
+STRIPE_SECRET_KEY = 'sk_test_51O9rzFH1OPSz0doLhIiS1teYNxezHA3vyZ5BgHZX1c6gm6aLZzGRKPTQnCVNe7BeZf2Cdj6c4j76UYMnVv3FE7nZ00NJKO8J3H'  # Секретный ключ
+STRIPE_API_VERSION = '2023-10-16'

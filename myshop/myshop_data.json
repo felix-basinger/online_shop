@@ -1,0 +1,2044 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-11-06T16:36:04.062Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-11-06T16:37:09.750Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Черный чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-11-06T16:37:58.265Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Зеленый чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-11-06T16:38:54.588Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Белый чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-11-06T17:37:53.153Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Белый чай",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-11-06T17:38:01.850Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Зеленый чай",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-11-06T17:38:08.528Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Черный чай",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-11-08T16:33:56.928Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "NewYear",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-11-08T16:34:35.529Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "NEWYEAR",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Code\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-11-08T17:09:14.465Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "NEWYEAR",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Valid from\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-11-09T17:17:19.186Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Красный чай",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 10,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 10,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 10,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 10,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add coupon",
+    "content_type": 11,
+    "codename": "add_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change coupon",
+    "content_type": 11,
+    "codename": "change_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete coupon",
+    "content_type": 11,
+    "codename": "delete_coupon"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view coupon",
+    "content_type": 11,
+    "codename": "view_coupon"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$6G9IULB5elJvcxAMVKommi$+OuQ6ROJk7F0E9ddA2PqHQPUGhIyPWwGyoeA+V4vMAs=",
+    "last_login": "2023-11-06T16:35:32.845Z",
+    "is_superuser": true,
+    "username": "Felix",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-11-06T16:34:34.425Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "shop",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "shop",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "coupons",
+    "model": "coupon"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qin34ooxdu91nm0w7wod9fnfnsf5s4xo",
+  "fields": {
+    "session_data": ".eJxVjkEOwiAQRe8ya0KoIoUu3XuGZspQWzVQKV2YpncXTBN1M8mf9_LzV2hxSUO7zC62I0EDFbDfX4f27nwBdEN_DdwGn-LY8aLwnc78Esg9zrv7VzDgPJRabaTuNSGRthp1L0krIfpa0RFN51CRrG0OZKpCJBmrhTSdUq4-CJVLQ6R9pDwxsGGZgv_EKieMCZo1r8_nuaBPY3pBc2AwxdG6MkBwIWBjcPxXqq8iTx9l29422lf9:1r19G6:8YBdAPIL3xKx2qRyr9K76OYLHOHIDWegMPqUQtGm0K8",
+    "expire_date": "2023-11-23T17:56:02.259Z"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "name": "Чай",
+    "slug": "chaj"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "name": "Черный чай",
+    "slug": "chernyj-chaj",
+    "image": "products/2023/11/06/7c664063ba5e6215cb3567de3330c187.jpg",
+    "description": "Великолепный вкус и аромат этого чая не может сравниться ни с чем на свете",
+    "price": "10.00",
+    "available": true,
+    "created": "2023-11-06T16:37:09.749Z",
+    "updated": "2023-11-06T17:38:08.527Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "category": 1,
+    "name": "Зеленый чай",
+    "slug": "zelenyj-chaj",
+    "image": "products/2023/11/06/CHAI.jpg",
+    "description": "Прекрасное сочетание аромата и вкуса данного чая заставят удивиться даже самых заядлых любителей чая",
+    "price": "40.00",
+    "available": true,
+    "created": "2023-11-06T16:37:58.263Z",
+    "updated": "2023-11-06T17:38:01.849Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "category": 1,
+    "name": "Белый чай",
+    "slug": "belyj-chaj",
+    "image": "products/2023/11/06/beliy_chai.jpg",
+    "description": "Прекрасный вкус прямо с китайских полей. Насладитесь замечательным ароматом и выразительным вкусом",
+    "price": "45.00",
+    "available": true,
+    "created": "2023-11-06T16:38:54.586Z",
+    "updated": "2023-11-06T17:37:53.150Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "category": 1,
+    "name": "Красный чай",
+    "slug": "krasnyj-chaj",
+    "image": "",
+    "description": "Бодрящий чай цвета алого заката всегда вызывал чувство удовлетворения у многих любителей чая",
+    "price": "30.00",
+    "available": true,
+    "created": "2023-11-09T17:17:19.177Z",
+    "updated": "2023-11-09T17:17:19.178Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "first_name": "Felix",
+    "last_name": "Basinger",
+    "email": "basin@mail.com",
+    "address": "via Gelato Melato, 12",
+    "postal_code": "234126",
+    "city": "Rome",
+    "created": "2023-11-06T20:29:47.352Z",
+    "updated": "2023-11-06T20:29:47.352Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "first_name": "Anton",
+    "last_name": "Lopez",
+    "email": "antonio@mail.ru",
+    "address": "Margo Gabilo, 45",
+    "postal_code": "876234",
+    "city": "Napoli",
+    "created": "2023-11-06T20:33:02.726Z",
+    "updated": "2023-11-06T20:33:02.726Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "first_name": "Bass",
+    "last_name": "Inger",
+    "email": "bassss@mail.com",
+    "address": "Navradga, 6",
+    "postal_code": "673456",
+    "city": "Milan",
+    "created": "2023-11-06T22:07:34.509Z",
+    "updated": "2023-11-06T22:07:34.509Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "first_name": "Felix",
+    "last_name": "Bryz",
+    "email": "basingerfelix17@gmail.com",
+    "address": "Narcaman, 67",
+    "postal_code": "123456",
+    "city": "Kras",
+    "created": "2023-11-06T22:08:49.051Z",
+    "updated": "2023-11-06T22:08:49.051Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 5,
+  "fields": {
+    "first_name": "Logo",
+    "last_name": "Pachino",
+    "email": "basingerfelix17@gmail.com",
+    "address": "Werbana, 25",
+    "postal_code": "123123",
+    "city": "Salo",
+    "created": "2023-11-06T22:18:19.529Z",
+    "updated": "2023-11-06T22:18:19.529Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "first_name": "gyjvuguh",
+    "last_name": "bkhjbbkj",
+    "email": "basingerfelix17@gmail.com",
+    "address": "nbjbhjbjh",
+    "postal_code": "68767",
+    "city": "j bvjbh",
+    "created": "2023-11-06T22:35:21.286Z",
+    "updated": "2023-11-06T22:35:21.286Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "first_name": "gyjvuguh",
+    "last_name": "bkhjbbkj",
+    "email": "basingerfelix17@gmail.com",
+    "address": "nbjbhjbjh",
+    "postal_code": "68767",
+    "city": "j bvjbh",
+    "created": "2023-11-06T22:40:33.193Z",
+    "updated": "2023-11-06T22:40:33.193Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "first_name": "sdaffadsf",
+    "last_name": "asdfdsaf",
+    "email": "basingerflix17@gmail.com",
+    "address": "fdsfsd",
+    "postal_code": "3242",
+    "city": "sdfdsgsdg",
+    "created": "2023-11-06T23:00:12.073Z",
+    "updated": "2023-11-06T23:00:12.073Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "first_name": "sdaffadsf",
+    "last_name": "asdfdsaf",
+    "email": "basingerflix17@gmail.com",
+    "address": "fdsfsd",
+    "postal_code": "3242",
+    "city": "sdfdsgsdg",
+    "created": "2023-11-06T23:00:57.014Z",
+    "updated": "2023-11-06T23:00:57.014Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "first_name": "sdaffadsf",
+    "last_name": "asdfdsaf",
+    "email": "basingerflix17@gmail.com",
+    "address": "fdsfsd",
+    "postal_code": "3242",
+    "city": "sdfdsgsdg",
+    "created": "2023-11-06T23:02:09.336Z",
+    "updated": "2023-11-06T23:02:09.336Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "first_name": "gfyuvhvh",
+    "last_name": "uyduyyyu",
+    "email": "basingerfelix17@gmail.com",
+    "address": "ndjnsj",
+    "postal_code": "23232",
+    "city": "sacsv s",
+    "created": "2023-11-06T23:03:24.374Z",
+    "updated": "2023-11-06T23:03:24.374Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "first_name": "gfyuvhvh",
+    "last_name": "uyduyyyu",
+    "email": "basingerfelix17@gmail.com",
+    "address": "ndjnsj",
+    "postal_code": "23232",
+    "city": "sacsv s",
+    "created": "2023-11-06T23:03:53.090Z",
+    "updated": "2023-11-06T23:03:53.090Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "first_name": "Maksim",
+    "last_name": "Zaleb",
+    "email": "basingerfelix17@gmail.com",
+    "address": "bhjahjdbchd",
+    "postal_code": "sabjhdbhjsabdh",
+    "city": "asjhdbjhasbhd",
+    "created": "2023-11-06T23:34:51.998Z",
+    "updated": "2023-11-06T23:34:51.998Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "first_name": "Maksim",
+    "last_name": "Zaleb",
+    "email": "basingerfelix17@gmail.com",
+    "address": "bhjahjdbchd",
+    "postal_code": "sabjhdbhjsabdh",
+    "city": "asjhdbjhasbhd",
+    "created": "2023-11-06T23:48:57.715Z",
+    "updated": "2023-11-06T23:48:57.715Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "first_name": "Kolya",
+    "last_name": "Redkin",
+    "email": "basingerfelix@gmail.com",
+    "address": "jkbjhbhj",
+    "postal_code": "bkjhbjhkbjk",
+    "city": "jkbkjbjkbb",
+    "created": "2023-11-06T23:54:18.738Z",
+    "updated": "2023-11-06T23:54:18.738Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 16,
+  "fields": {
+    "first_name": "bkjbjk",
+    "last_name": "mnkjbnkj",
+    "email": "basingerfelix17@gmail.com",
+    "address": "dsvdsv",
+    "postal_code": "dsvdsv",
+    "city": "vdsvsdvs",
+    "created": "2023-11-07T00:11:58.603Z",
+    "updated": "2023-11-07T00:11:58.603Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 17,
+  "fields": {
+    "first_name": "Felix",
+    "last_name": "Basinger",
+    "email": "basingerfelix17@gmail.com",
+    "address": "via Chalifa, 4",
+    "postal_code": "123432",
+    "city": "Milano",
+    "created": "2023-11-07T00:18:25.443Z",
+    "updated": "2023-11-07T00:18:25.443Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 18,
+  "fields": {
+    "first_name": "Nata",
+    "last_name": "Baha",
+    "email": "basingerfelix17@gmail.com",
+    "address": "via Nara",
+    "postal_code": "123432",
+    "city": "Paris",
+    "created": "2023-11-07T00:23:57.152Z",
+    "updated": "2023-11-07T00:23:57.152Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 19,
+  "fields": {
+    "first_name": "Fabio",
+    "last_name": "Canavaro",
+    "email": "basingeerfelix17@gmail.com",
+    "address": "rest in peace",
+    "postal_code": "666555",
+    "city": "Milan",
+    "created": "2023-11-07T16:56:10.214Z",
+    "updated": "2023-11-07T16:56:10.214Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 20,
+  "fields": {
+    "first_name": "Napoli",
+    "last_name": "Papoli",
+    "email": "basingerfelix17@gmail.com",
+    "address": "ramon",
+    "postal_code": "123343",
+    "city": "Kaif",
+    "created": "2023-11-07T17:00:53.102Z",
+    "updated": "2023-11-07T17:00:53.102Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 21,
+  "fields": {
+    "first_name": "sdbhufbsdhu",
+    "last_name": "dsvdfvfdv",
+    "email": "bhdsb@mail.com",
+    "address": "bjhsdfh",
+    "postal_code": "vsdbhvbfhds",
+    "city": "fsduhbfhu",
+    "created": "2023-11-07T17:04:51.927Z",
+    "updated": "2023-11-07T17:04:51.927Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 22,
+  "fields": {
+    "first_name": "Felix",
+    "last_name": "Bryzit",
+    "email": "basingerfelix17@gmail.com",
+    "address": "via mai",
+    "postal_code": "123321",
+    "city": "Moscow",
+    "created": "2023-11-07T17:35:58.410Z",
+    "updated": "2023-11-07T17:35:58.410Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 23,
+  "fields": {
+    "first_name": "cvxvfsv",
+    "last_name": "vdsvdf",
+    "email": "dvsdc@mail.com",
+    "address": "fd df d",
+    "postal_code": "ffrfre",
+    "city": "fevdfv",
+    "created": "2023-11-07T17:39:27.851Z",
+    "updated": "2023-11-07T17:39:27.851Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 24,
+  "fields": {
+    "first_name": "fdbvfvdf",
+    "last_name": "vfdvfdv",
+    "email": "fdsf@mail.com",
+    "address": "cdsfsdf",
+    "postal_code": "rsgfereg",
+    "city": "wrfdwvrd",
+    "created": "2023-11-07T19:53:47.371Z",
+    "updated": "2023-11-07T19:53:47.371Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 25,
+  "fields": {
+    "first_name": "hrhgjgsd",
+    "last_name": "dnsjkvndkjnvkj",
+    "email": "vghvhv@mail.com",
+    "address": "gvgjvj",
+    "postal_code": "iuyiuyiu",
+    "city": "rtrtdrtd",
+    "created": "2023-11-07T20:07:46.041Z",
+    "updated": "2023-11-07T20:07:46.041Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 26,
+  "fields": {
+    "first_name": "mnbknbjbjk",
+    "last_name": "njkbkkj",
+    "email": "hvjgjhf@mail.com",
+    "address": "buibku",
+    "postal_code": "ouhiuoh",
+    "city": "oihioh",
+    "created": "2023-11-07T20:38:40.318Z",
+    "updated": "2023-11-07T20:38:40.318Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 27,
+  "fields": {
+    "first_name": "sdvdfvd",
+    "last_name": "vfdv fdv d",
+    "email": "dcds@mail.com",
+    "address": "fewvrv",
+    "postal_code": "vefvefv",
+    "city": "erberbr",
+    "created": "2023-11-07T21:12:58.999Z",
+    "updated": "2023-11-07T21:13:47.619Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 28,
+  "fields": {
+    "first_name": "Basunga",
+    "last_name": "Abasunga",
+    "email": "basingerfelix17@gmail.com",
+    "address": "Zanara",
+    "postal_code": "123321",
+    "city": "Marcele",
+    "created": "2023-11-07T21:17:58.850Z",
+    "updated": "2023-11-07T21:18:40.875Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 29,
+  "fields": {
+    "first_name": "wgrevedf",
+    "last_name": "vfevrev",
+    "email": "veverv@mail.com",
+    "address": "njfrenjk",
+    "postal_code": "fregfrefg",
+    "city": "regregerv",
+    "created": "2023-11-07T21:30:52.208Z",
+    "updated": "2023-11-07T21:31:31.059Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3O9wrtH1OPSz0doL07f0PPiE"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 30,
+  "fields": {
+    "first_name": "bhjvjvhjv hj",
+    "last_name": "bjkvhvhv",
+    "email": "djsbcskj@mail.com",
+    "address": "dnjenfdnsj",
+    "postal_code": "csdcds",
+    "city": "dsfcsdfe",
+    "created": "2023-11-07T21:44:56.704Z",
+    "updated": "2023-11-07T21:45:42.227Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3O9x5cH1OPSz0doL0abC53DC"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 31,
+  "fields": {
+    "first_name": "bfvdf",
+    "last_name": "dfbdgbdg",
+    "email": "dvdf@mail.com",
+    "address": "fefrvefvf",
+    "postal_code": "ccerefv",
+    "city": "reverce",
+    "created": "2023-11-07T21:57:00.775Z",
+    "updated": "2023-11-07T21:57:42.858Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3O9xHEH1OPSz0doL0um9CBp3"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 32,
+  "fields": {
+    "first_name": "efveeffdsc",
+    "last_name": "vdsvdsvf",
+    "email": "csdbhhbj@mail.cpm",
+    "address": "nfjdnvknkfj",
+    "postal_code": "fndkjfnjd",
+    "city": "fdnjnvkjdfng",
+    "created": "2023-11-07T22:08:21.580Z",
+    "updated": "2023-11-07T22:09:03.101Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3O9xSDH1OPSz0doL1yvkTE5j"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 33,
+  "fields": {
+    "first_name": "bfd bm,bnklfd",
+    "last_name": "vr efjgnlkefmnvkl",
+    "email": "ndsnjk@mail.com",
+    "address": "vdfnnjkrrgj",
+    "postal_code": "egrnjkngjknrjk",
+    "city": "gnjkfngjkrn",
+    "created": "2023-11-07T23:18:48.533Z",
+    "updated": "2023-11-07T23:19:31.998Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3O9yYQH1OPSz0doL1yGbYtkO"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 34,
+  "fields": {
+    "first_name": "bjkbhvtgv",
+    "last_name": "gvhgcfc",
+    "email": "basingerfelix@gmail.com",
+    "address": "vghtftrchbb",
+    "postal_code": "hguyyvv",
+    "city": "yuvbjhbk",
+    "created": "2023-11-08T14:28:10.004Z",
+    "updated": "2023-11-08T14:30:42.571Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3OACmCH1OPSz0doL1h312eet"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 35,
+  "fields": {
+    "first_name": "hjbjhbhjb",
+    "last_name": "fhtbhjj",
+    "email": "basingerfelix@gmail.com",
+    "address": "vghbhjgt",
+    "postal_code": "tfgtftfgb",
+    "city": "gyyugftyf",
+    "created": "2023-11-08T14:45:56.255Z",
+    "updated": "2023-11-08T14:48:25.219Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3OAD3LH1OPSz0doL1q8qwjsR"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 36,
+  "fields": {
+    "first_name": "bhhjvgvj",
+    "last_name": "ujhuhgyf",
+    "email": "basingerfelix17@gmail.com",
+    "address": "guyvtc",
+    "postal_code": "gyuguygy",
+    "city": "gvfrdesd",
+    "created": "2023-11-08T15:03:31.841Z",
+    "updated": "2023-11-08T15:05:49.994Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3OADKBH1OPSz0doL1FguulGE"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 37,
+  "fields": {
+    "first_name": "Natalya",
+    "last_name": "Bryzitskaya",
+    "email": "alexz_nat@mail.ru",
+    "address": "Proezd Repina, 38, flat 70",
+    "postal_code": "350090",
+    "city": "Krasnodar",
+    "created": "2023-11-08T15:48:25.144Z",
+    "updated": "2023-11-08T15:49:21.155Z",
+    "paid": true,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": "pi_3OAE0JH1OPSz0doL0MBL61LF"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 38,
+  "fields": {
+    "first_name": "nidsjacj",
+    "last_name": "dsfvsv",
+    "email": "hbjh@mail.com",
+    "address": "fewf",
+    "postal_code": "vdsd",
+    "city": "vdsfvds",
+    "created": "2023-11-08T17:04:30.243Z",
+    "updated": "2023-11-08T17:04:30.244Z",
+    "paid": false,
+    "coupon": null,
+    "discount": 0,
+    "stripe_id": ""
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 39,
+  "fields": {
+    "first_name": "vghvjhvhjvjh",
+    "last_name": "bhjbhjbj",
+    "email": "bhbjhb@mail.com",
+    "address": "dednjklwenjke",
+    "postal_code": "newkljenfjklwe",
+    "city": "ewnlkewl",
+    "created": "2023-11-08T17:24:27.795Z",
+    "updated": "2023-11-08T17:30:06.475Z",
+    "paid": true,
+    "coupon": 1,
+    "discount": 30,
+    "stripe_id": "pi_3OAFZoH1OPSz0doL03X2urPy"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 40,
+  "fields": {
+    "first_name": "cdscdsc",
+    "last_name": "cdcssd",
+    "email": "cdssdc@mail.com",
+    "address": "fefjjeh",
+    "postal_code": "fefecerfv",
+    "city": "edcedcde",
+    "created": "2023-11-08T17:30:34.181Z",
+    "updated": "2023-11-08T17:33:35.291Z",
+    "paid": true,
+    "coupon": 1,
+    "discount": 30,
+    "stripe_id": "pi_3OAFdBH1OPSz0doL0xut46ob"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 41,
+  "fields": {
+    "first_name": "cdscsdvd",
+    "last_name": "vdsvsdvd",
+    "email": "sdvs@mail.com",
+    "address": "edwbjfbkjw",
+    "postal_code": "efbwbf",
+    "city": "fdfrv",
+    "created": "2023-11-08T17:34:07.862Z",
+    "updated": "2023-11-08T17:34:39.982Z",
+    "paid": true,
+    "coupon": 1,
+    "discount": 30,
+    "stripe_id": "pi_3OAFeDH1OPSz0doL1VhXkWlC"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 42,
+  "fields": {
+    "first_name": "hjvjhbjh",
+    "last_name": "jbjbj",
+    "email": "hjvjhvhj@mail.com",
+    "address": "defsr",
+    "postal_code": "dsvdzc",
+    "city": "sddsds",
+    "created": "2023-11-09T15:06:53.354Z",
+    "updated": "2023-11-09T15:09:14.156Z",
+    "paid": true,
+    "coupon": 1,
+    "discount": 30,
+    "stripe_id": "pi_3OAZr1H1OPSz0doL0YI6MEB6"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 43,
+  "fields": {
+    "first_name": "vhjbiugui",
+    "last_name": "bkhbklkn",
+    "email": "jiwdskjw@mail.com",
+    "address": "njkewnfj",
+    "postal_code": "fnuewfiouj",
+    "city": "nufijehjhf",
+    "created": "2023-11-09T15:24:43.879Z",
+    "updated": "2023-11-09T15:26:15.662Z",
+    "paid": true,
+    "coupon": 1,
+    "discount": 30,
+    "stripe_id": "pi_3OAa7VH1OPSz0doL1Tw6S2K1"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 44,
+  "fields": {
+    "first_name": "hkjhhj",
+    "last_name": "njkjhjk",
+    "email": "ytydt@mail.com",
+    "address": "bhubhbuy",
+    "postal_code": "yuhuuuu",
+    "city": "jnjknjnjk",
+    "created": "2023-11-09T15:50:17.438Z",
+    "updated": "2023-11-09T15:50:58.572Z",
+    "paid": true,
+    "coupon": 1,
+    "discount": 30,
+    "stripe_id": "pi_3OAaVQH1OPSz0doL1mbwk0TM"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 45,
+  "fields": {
+    "first_name": "dvsvnjdfsv",
+    "last_name": "dvnsjlvnldfs",
+    "email": "vcxnjvdj@mail.com",
+    "address": "dcdfsvfsv",
+    "postal_code": "vfdsvf",
+    "city": "vsfds",
+    "created": "2023-11-09T17:30:28.151Z",
+    "updated": "2023-11-09T17:31:05.634Z",
+    "paid": true,
+    "coupon": 1,
+    "discount": 30,
+    "stripe_id": "pi_3OAc4JH1OPSz0doL0c5bKq0f"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 2,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 2,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 3,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 4,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 5,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 6,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 8,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 9,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 10,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 11,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 12,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 13,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 6
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 15,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 16,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 17,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 17,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 18,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 19,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 20,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 6
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 21,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 23,
+  "fields": {
+    "order": 22,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 24,
+  "fields": {
+    "order": 23,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 24,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 25,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 26,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 28,
+  "fields": {
+    "order": 27,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 29,
+  "fields": {
+    "order": 28,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 30,
+  "fields": {
+    "order": 28,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 31,
+  "fields": {
+    "order": 29,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 32,
+  "fields": {
+    "order": 30,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 33,
+  "fields": {
+    "order": 31,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 34,
+  "fields": {
+    "order": 32,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 35,
+  "fields": {
+    "order": 33,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 36,
+  "fields": {
+    "order": 34,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 37,
+  "fields": {
+    "order": 35,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 38,
+  "fields": {
+    "order": 36,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 39,
+  "fields": {
+    "order": 37,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 40,
+  "fields": {
+    "order": 37,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 41,
+  "fields": {
+    "order": 38,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 6
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 42,
+  "fields": {
+    "order": 39,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 43,
+  "fields": {
+    "order": 39,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 44,
+  "fields": {
+    "order": 40,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 45,
+  "fields": {
+    "order": 41,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 5
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 46,
+  "fields": {
+    "order": 42,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 47,
+  "fields": {
+    "order": 43,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 3
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 48,
+  "fields": {
+    "order": 44,
+    "product": 1,
+    "price": "10.00",
+    "quantity": 4
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 49,
+  "fields": {
+    "order": 45,
+    "product": 3,
+    "price": "45.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 50,
+  "fields": {
+    "order": 45,
+    "product": 2,
+    "price": "40.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "coupons.coupon",
+  "pk": 1,
+  "fields": {
+    "code": "NEWYEAR",
+    "valid_from": "2023-11-08T16:33:28Z",
+    "valid_to": "2024-01-10T16:33:45Z",
+    "discount": 30,
+    "active": true
+  }
+}
+]

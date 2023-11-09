@@ -139,3 +139,8 @@ STRIPE_API_VERSION = '2023-10-16'
 STRIPE_WEBHOOK_SECRET = 'whsec_2ddf869d3f147b3af8e1e6bcf745930d8d1b7c0582dbf8b37dc96c5fc25fd3de'
 
 STATIC_ROOT = BASE_DIR / 'static'
+
+# настроечные параметры Redis
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
